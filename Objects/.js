@@ -56,3 +56,30 @@ console.log(student);
 
 delete student.name;
 console.log(student);
+
+// objects of objects
+
+const eatables = {
+  fruits: {
+    name: "apple",
+    color: "red",
+    price: 100,
+  },
+  vegetables: {
+    name: "potato",
+    color: "skin-brown",
+    price: 20,
+  },
+  junkFood: {
+    name: "pizza",
+    color: "multicolor",
+    price: 400,
+  },
+};
+
+console.log(eatables); //accessing the whole object
+console.log(eatables.fruits); // accessing the specific object that is fruits.
+console.log(eatables.junkFood.price); //accessing the specific object and it's specific key that is price of junkfood
+
+eatables.vegetables.price = 40;
+console.log(eatables.vegetables); //updating the price of potato
