@@ -124,3 +124,21 @@ console.log(Math.ceil(-98));
 
 //5. Math.random() - gives the random number between 0 and 1 where 1 is exclusive so it will never give 1 and 0 is inclusive
 console.log(Math.random());
+
+//Random Integers
+//from 1 to 10
+
+let step1 = Math.random();
+console.log(step1);
+
+let step2 = step1 * 10; //multiplying by 10 bcz generating numbers from 1 to 10
+console.log(step2);
+
+let step3 = Math.floor(step2);
+console.log(step3);
+
+let step4 = step3 + 1;
+console.log(step4);
+
+//shorthand of this
+console.log(Math.floor(Math.random() * 10) + 1);
