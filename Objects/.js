@@ -99,3 +99,20 @@ console.log((classInfo[2].name = "muskan")); //updating the value
 console.log(classInfo);
 console.log((classInfo[1].gender = "male")); //creating new key
 console.log(classInfo);
+
+//Math object
+//properties
+console.log(Math.PI);
+console.log(Math.E);
+
+//Methods
+//1. Math.abs(n) -abs means(absolute) gives the absolute number even if the number is in negative
+console.log(Math.abs(-12.99097));
+
+//2. Math.pow(a,b)- pow means(power) calculates the power like a**b
+console.log(Math.pow(2, 5)); //means 5 times 2
+
+//3.Math.floor(n) -gives the round or less or equal value of the number
+console.log(Math.floor(-20.8965)); //gives -21 bcz -21 is smaller than -20.8965, (the bigger the number in negative the smallest it wil become)
+console.log(Math.floor(-98)); //gives -98 the exact number
+console.log(Math.floor(56.787765)); //gives 56
