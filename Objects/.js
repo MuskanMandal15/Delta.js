@@ -112,7 +112,15 @@ console.log(Math.abs(-12.99097));
 //2. Math.pow(a,b)- pow means(power) calculates the power like a**b
 console.log(Math.pow(2, 5)); //means 5 times 2
 
-//3.Math.floor(n) -gives the round or less or equal value of the number
+//3.Math.floor(n) -gives the round or less or equal value of the number , it round off the smallest, nearest and integer value
 console.log(Math.floor(-20.8965)); //gives -21 bcz -21 is smaller than -20.8965, (the bigger the number in negative the smallest it wil become)
 console.log(Math.floor(-98)); //gives -98 the exact number
 console.log(Math.floor(56.787765)); //gives 56
+
+//4. Math.ceil(n)- opposite of floor
+console.log(Math.ceil(90.12121));
+console.log(Math.ceil(-99.8709));
+console.log(Math.ceil(-98));
+
+//5. Math.random() - gives the random number between 0 and 1 where 1 is exclusive so it will never give 1 and 0 is inclusive
+console.log(Math.random());
