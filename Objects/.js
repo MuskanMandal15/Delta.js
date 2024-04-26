@@ -83,3 +83,19 @@ console.log(eatables.junkFood.price); //accessing the specific object and it's s
 
 eatables.vegetables.price = 40;
 console.log(eatables.vegetables); //updating the price of potato
+
+//Array of objects
+//objects inside an array
+
+const classInfo = [
+  { name: "priya", grade: "A", city: "Delhi" },
+  { name: "aman", grade: "B", city: "Mumbai" },
+  { name: "neha", grade: "C", city: "Kolkata" },
+];
+console.log(classInfo);
+console.log(classInfo[0]);
+console.log(classInfo[1].grade); //accessing first index's grade
+console.log((classInfo[2].name = "muskan")); //updating the value
+console.log(classInfo);
+console.log((classInfo[1].gender = "male")); //creating new key
+console.log(classInfo);
