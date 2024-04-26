@@ -141,4 +141,16 @@ let step4 = step3 + 1;
 console.log(step4);
 
 //shorthand of this
-console.log(Math.floor(Math.random() * 10) + 1);
+console.log(Math.floor(Math.random() * 10) + 1); //adding 1 so that the we can generate the number with 1 to 10, if we don't then the number will come between 0 to 9
+
+//Question 1. generate a random number between 1 to 100
+let random1 = Math.floor(Math.random() * 100) + 1;
+console.log(random1);
+
+// Question 2. generate a random number between 1 to 5
+let random2 = Math.floor(Math.random() * 5) + 1;
+console.log(random2);
+
+// Question 3. generate a random number between 21 to 25
+let random3 = Math.floor(Math.random() * 5) + 21;
+console.log(random3);
