@@ -30,3 +30,22 @@ function isAdultOrNot() {
   }
 }
 isAdultOrNot();
+
+//Question 1. print a poem
+function printingPoem() {
+  console.log("twinkle twinkle, little star");
+  console.log("how are wonder, what you are");
+}
+printingPoem();
+
+//Question 2.Create a function to roll a dice & always display the value of the dice (1 to 6)
+function rollingDice() {
+  let random = Math.floor(Math.random() * 6) + 1;
+  console.log(random);
+}
+rollingDice();
+rollingDice();
+rollingDice();
+rollingDice();
+rollingDice();
+rollingDice();
